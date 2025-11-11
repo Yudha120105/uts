@@ -1,6 +1,6 @@
 <?php
 include 'config.php';
-
+//login.php
 // jika sudah login, arahkan ke index
 if (isset($_SESSION['login_user'])) {
     header("Location: index.php");
