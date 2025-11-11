@@ -4,7 +4,7 @@ $servername = "localhost";
 $dbusername = "root";
 $dbpassword = "";
 $dbname = "db_kalibrasi";
-
+ //koneksi
 $conn = new mysqli($servername, $dbusername, $dbpassword, $dbname);
 if ($conn->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
